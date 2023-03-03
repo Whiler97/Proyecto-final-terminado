@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <style>
+        :root{
+        --width: 300px;
+        --padding: 10px;
+        --bgcolor: rgb(52, 52, 52);
+        --hovercolor: rgb(23, 23, 23);
+        --width-collapsed: 50px;
+     }
+
+     body{
+        background-color: #032c55;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+        margin-left: var(--width-collapseds);
+     }
+
+     .body-expanded{
+        margin-left: var(--width);
+     }
+    </style>
+    <title>Inicio || proyecto final terminado</title>
+</head>
+<body>
+   <div id="sidemenu" class="menu-collapsed">
+    <!--           HEADER              -->
+<div id="header">
+    <div id="title"><span>Vida MMR</span></div>
+    <div id="menu-btn">
+    <div class="btn-hamburger"></div>
+    <div class="btn-hamburger"></div>
+    <div class="btn-hamburger"></div>
+    </div>
+</div>
+
+    <!--           PROFILE              -->
+<div id="proile">
+    <div id="photo"><img src="./img/image-colton.jpg" alt=""></div>
+
+    <div id="name"><span>Marcos Rivas</span></div>
+</div>
+
+    <!--           ITEMS              -->
+<div id="menu-items">
+    <div class="item">
+        <a href="#">
+            <div class="icon"><img src="./img/login.png" alt="">
+            </div>
+            <div class="title"><span>Login</span></div>
+        </a>
+    </div>
+</div>
+
+   </div>
+   <div id="main-container">
+    Hola a todos
+</div>
+</body>
+</html>
